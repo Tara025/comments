@@ -1,0 +1,71 @@
+.message {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 12px;
+
+  h5 {
+    display: flex;
+  }
+}
+
+.messageList {
+  color: black;
+  display: flex;
+  align-items: flex-start;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  span {
+    color: blue;
+  }
+
+  textarea {
+    height: 100px;
+  }
+}
+
+.Ausgabe {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  h4{
+    margin: 2px;
+    color: blue;
+
+  }
+  h6{
+    margin: 0;
+  }
+ 
+  p {
+    margin: 5px; /* Hinzugefügt: Entfernt den Standardabstand */
+  }
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+
+  padding: 0.6em 1.2em;
+  font-size: 0.8em;
+  font-weight: 500;
+  font-family: inherit;
+  // background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: violet;
+  color: violet;
+}
+// button:focus,
+// button:focus-visible {
+//   outline: px auto -webkit-focus-ring-color;
+// }
