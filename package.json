@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://{Tara025}.github.io/{git@github.com:Tara025/comments.git}",
+  "homepage": "http://{Tara025}.github.io/comments",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
